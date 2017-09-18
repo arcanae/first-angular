@@ -4,7 +4,8 @@
     "description": "",
     "main": "bootstrap.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch"
     },
     "repository": {
         "type": "git",
@@ -22,6 +23,7 @@
         "@angular/compiler-cli": "^4.4.1",
         "@angular/core": "^4.4.1",
         "@angular/platform-browser": "^4.4.1",
+        "@angular/platform-browser-dynamic": "^4.4.1",
         "rxjs": "^5.4.3",
         "zone.js": "^0.8.17"
     },
